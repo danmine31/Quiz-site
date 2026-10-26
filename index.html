@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Викторины на различные темы</title>
+  <link rel="stylesheet" href="styles/index.css"/>
+  <link rel="stylesheet" href="styles/styles.css"/>
+  <link rel="stylesheet" href="styles/fonts.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img class="header_logo" src="./assets/images/logo-dark.svg"/>
+      <img class="header_logo" src="./assets/images/logo.svg"/>
+    </div>
+    <button class="header_button">
+      <img src="./assets/images/icon-sun.svg"/>
+      <img src="./assets/images/icon-moon.svg"/>
+    </button>
+  </header>
+  <main>
+    <div class="filter">
+      <p class="title">ТЕМАТИЧЕСКИЕ ВИКТОРИНЫ</p>
+      <div>
+        <button class="filter_button is-active" data-target="all">Все</button>
+        <button class="filter_button" data-target="active">Пройденные</button>
+        <button class="filter_button" data-target="inactive">Непройденные</button>
+      </div>
+    </div>
+    <div class="grid">
+      <article class="child" data-id="1" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-cosmos.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">Астрономия и освоение космоса</span>
+            <span class="grid_text">Тест охватывает базовые и углублённые знания о строении Солнечной системы, физике звёздных объектов и ключевых этапах практической космонавтики.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+      <article class="child" data-id="2" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-history.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">Всемирная история</span>
+            <span class="grid_text">Проверка эрудиции по ключевым поворотным событиям, битвам и мирным договорам от эпохи Древнего мира до середины XX века.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+      <article class="child" data-id="3" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-literature.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">Мировая классическая литература</span>
+            <span class="grid_text">Вопросы посвящены знаковым шедеврам литературы, их авторам, жанровым формам и центральным персонажам от эпохи Возрождения до XX века.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+      <article class="child" data-id="4" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-geography.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">География и страны мира</span>
+            <span class="grid_text">Тест проверяет знание физической и политической карты мира: гидросферы, горных систем, геополитических анклавов и столиц государств.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+      <article class="child" data-id="5" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-cinema.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">История мирового кинематографа</span>
+            <span class="grid_text">Вопросы ориентированы на понимание этапов становления киноискусства: от первых публичных сеансов и немого кино до режиссёрских школ и технических революций.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+      <article class="child" data-id="6" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-biology.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">Биология и живая природа</span>
+            <span class="grid_text">Проверка знаний по общей биологии, физиологии, микробиологии, ботанике и эволюционным процессам органического мира.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+      <article class="child" data-id="7" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-it.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">Компьютерные науки и IT</span>
+            <span class="grid_text">Тематика включает фундаментальные алгоритмы, структуру вычислительных систем, сетевые протоколы и историю развития языков программирования.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+      <article class="child" data-id="8" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-music.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">Мировое музыкальное искусство</span>
+            <span class="grid_text">Тест охватывает классические симфонические каноны, оперные формы, теорию музыки и знаковые вехи мировой музыкальной сцены.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+      <article class="child" data-id="9" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-mythology.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">Мифология и древние эпосы</span>
+            <span class="grid_text">Вопросы посвящены сакральным преданиям, божественным пантеонам и мифическим существам древней Греции, Скандинавии, Египта и Месопотамии.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+      <article class="child" data-id="10" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-physics.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">Физика и фундаментальные законы природы</span>
+            <span class="grid_text">Проверка понимания базовых принципов классической механики, электромагнетизма, термодинамики и квантовой теории.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+      <article class="child" data-id="11" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-architecture.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">Архитектура и памятники культуры</span>
+            <span class="grid_text">Тест охватывает знаковые мировые постройки, хронологию архитектурных стилей и инженерные достижения зодчих разных эпох.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+      <article class="child" data-id="12" data-active="inactive">
+        <div class="grid_svg">
+          <img class="svg" src="assets/images/logo-language.svg"/>
+          <div class="grid_texts">
+            <span class="grid_title">Лингвистика и языки мира</span>
+            <span class="grid_text">Вопросы затрагивают типологию языков, их генеалогическую классификацию, письменные системы и историческое развитие речи.</span>
+          </div>
+        </div>
+        <button class="start_button">Пройти</button>
+      </article>
+    </div>
+  </main>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

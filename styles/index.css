@@ -1,0 +1,21 @@
+:root {
+    --bg-main: #04091c;
+    --bg-secondary: #0a1640;
+    --bg-header: #1f2535;
+    --bg-surface: #2f354b;
+    --bg-surface-hover: #52576a;
+    --bg-gradient: linear-gradient(var(--bg-main), var(--bg-secondary));
+
+    --text-primary: #ffffff;
+    --text-secondary: #8f939f;
+    --text-muted: #525867;
+
+    --border-primary: #474d63;
+    --border-subtle: #cccccc;
+
+    --color-accent: #ec5d58;
+
+    --font-family-b: SansB, sans-serif;
+    --font-family-m: SansM, sans-serif;
+    --font-family-r: SansR, sans-serif;
+}

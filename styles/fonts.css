@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'SansB';
+    src: url('../assets/fonts/NotoSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'SansM';
+    src: url('../assets/fonts/NotoSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'SansR';
+    src: url('../assets/fonts/NotoSans-Regular.ttf');
+}

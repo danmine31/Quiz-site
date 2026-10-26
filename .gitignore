@@ -1,0 +1,18 @@
+# Служебные папки IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи и временные файлы
+*.log
+
+# Задел на будущее (если появятся сборщики или линтеры)
+node_modules/
+dist/
+build/

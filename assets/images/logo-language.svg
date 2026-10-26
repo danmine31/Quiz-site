@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+    <rect width="60" height="60" rx="16" fill="#A7F5A7" />
+    <path d="M36 17H21C17.7 17 15 19.7 15 23C15 24.8 15.8 26.5 17.1 27.5L16 32L21 30.3C21.3 30.3 21.7 30.3 22 30.3H28" stroke="#091540" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="21" y="25" fill="#091540" font-size="8" font-family="sans-serif" font-weight="800">A</text>
+    <path d="M39 25H28C25.2 25 23 27.2 23 30C23 31.5 23.7 32.8 24.8 33.8L24 38L28.2 36.3C28.8 36.5 29.4 36.5 30 36.5H39C41.8 36.5 44 34.2 44 31.5C44 28.8 41.8 26.5 39 25Z" stroke="#091540" stroke-width="2.2" stroke-linejoin="round" />
+    <text x="32" y="33.5" fill="#091540" font-size="9" font-family="sans-serif" font-weight="800">Я</text>
+</svg>
