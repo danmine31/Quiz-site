@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100dvh;
+    padding: 0 16px;
 }
 
 .grid{
@@ -30,6 +31,26 @@ body {
     margin-top: 30px;
     margin-bottom: 65px;
     width: 100%;
+}
+
+@media (max-width: 1000px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .filter{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 650px){
+    .grid{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .filter{
+        text-align: center;
+    }
 }
 
 .child{
@@ -59,14 +80,14 @@ body {
 
 .header_button:hover,
 .filter_button:hover,
-.remove_button:hover{
+.start_button:hover{
     background: var(--bg-surface-hover);
     cursor: pointer;
 }
 
 .header_button:focus-visible,
 .filter_button:focus-visible,
-.remove_button:focus-visible{
+.start_button:focus-visible{
     outline: 2px solid var(--color-accent);
 }
 
@@ -120,7 +141,8 @@ body {
 
 .filter{
     width: 100%;
-    height: 75px;
+    min-height: 75px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -146,7 +168,7 @@ body {
 
 .grid_svg{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .grid_texts{
